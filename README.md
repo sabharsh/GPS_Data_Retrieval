@@ -10,7 +10,7 @@ https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ultimate-gps.pdf
 
  get_location(gps_uart) - This function retrieves, parses and returns all required data. The only argumnet needed is the uart bus which must be initialized in the calling function. The rrturned value is "<utc_time>, <latitude>, <longitude>, <num_satellites>, <altitude>, <heading>, <speed>".
  
- get_option_data(gps_uart, option) - This function retrieves raw data of a particular option from the GPS. Refer to the reference above for learn about the options. The returned value is "<raw data>".
+ get_option_data(gps_uart, option) - This function retrieves raw data of a particular option from the GPS. Refer to the reference above for learn about the options. The returned value is "<raw_data>".
  
  
  
